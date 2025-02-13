@@ -6,16 +6,94 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Navigation Bar */
+/* Navigation Bar
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    /*position:fixed;*/
+    position:fixed;
     width:100%;
+}*/
+
+.header {
+    height: 110px;
+    display: grid;
+    /*grid-template-columns: 300px 500px 1fr;*/
+    width: 100%;
+    background-color: #333;
 }
 
-.navbar {
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.left-section {
+    margin-top: 10px;
+    display: flex
+;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.logo-image {
+    width: 179.51px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    align-items: left;
+}
+
+.middle-section {
+    margin-top: 10px;
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}*/
+
+.communities, .contact, .about, .MLS-Search, .our-properties {
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: rgb(3, 117, 127);
+    border-width: 5px;
+}
+
+.communities-paragraph, .Contact-paragraph, .about-paragraph, .communities-paragraph, .MLS-Search-Paragraph, .our-properties-paragraph {
+    font-family: montserrat, arial;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.right-section {
+    margin-top: 10px;
+    display: flex
+;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.profile-image {
+    height: 19.95px;
+    padding-bottom: 10px;
+}
+
+
+/*.navbar {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -59,7 +137,7 @@ header {
     .site-name {
         font-size: 1.2em;
     }
-  }
+  }*/
 
 /* Hero Section */
 .hero {
@@ -68,17 +146,19 @@ header {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
+    padding: 20px 800px;
 }
 
 .hero h1 {
     font-size: 48px;
     margin: 0;
+    text-align: justify;
 }
 
 .hero p {
     font-size: 20px;
     margin-top: 10px;
+    text-align: justify;
 }
 
 /* Communities Section */
