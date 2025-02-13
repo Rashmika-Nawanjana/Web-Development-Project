@@ -7,13 +7,84 @@ body {
 }
 
 /* Navigation Bar */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    /*position:fixed;*/
-    width:100%;
-}
+.header {
+    height: 0px;
+    display: grid;
+    grid-template-columns: 300px 500px 1fr;
+    width: 100%; 
+    height: 90px;
+    padding-bottom: 70px;
+    background-color: #82c9f2;
+
+  }
+
+  .middle-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .right-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right */
+    padding-right: 20px; /* Add some space from the edge */
+  }
+  
+  .logo-image {
+    width: 179.51px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+  }
+  
+  .profile-image {
+    height: 19.95px;
+    padding-bottom: 10px;
+  }
+  
+  .communities-paragraph,
+  .Contact-paragraph,
+  .about-paragraph,
+  .communities-paragraph,
+  .MLS-Search-Paragraph,
+  .our-properties-paragraph {
+    font-family: montserrat, arial;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  .communities-1,
+  .contact,
+  .about,
+  .MLS-Search,
+  .our-properties {
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: rgba(145, 155, 156, 0);
+    border-width: 5px;
+  }
+  
+  .communities-1:hover,
+  .contact:hover,
+  .about:hover,
+  .MLS-Search:hover,
+  .our-properties:hover {
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: rgb(17, 162, 173);
+    border-width: 5px;
+  }
 
 .navbar {
     list-style: none;
