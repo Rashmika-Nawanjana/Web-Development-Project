@@ -18,10 +18,9 @@
 }
 
 /* Logo Styling */
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: black; /* Adjust color as needed */
+.logo-imagae{
+    width: 30px;
+    padding-left: 20px;
 }
 
 /* Navigation Menu Styling */
