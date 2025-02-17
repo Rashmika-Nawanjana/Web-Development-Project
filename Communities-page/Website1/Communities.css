@@ -1,0 +1,232 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position:fixed;
+    width:100%;
+}*/
+
+.header {
+    height: 110px;
+    display: grid;
+    /*grid-template-columns: 300px 500px 1fr;*/
+    width: 100%;
+    background-color: #333;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.left-section {
+    margin-top: 10px;
+    display: flex
+;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.logo-image {
+    width: 179.51px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    align-items: left;
+}
+
+.middle-section {
+    margin-top: 10px;
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}*/
+
+.communities, .contact, .about, .MLS-Search, .our-properties {
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: rgb(3, 117, 127);
+    border-width: 5px;
+}
+
+.communities-paragraph, .Contact-paragraph, .about-paragraph, .communities-paragraph, .MLS-Search-Paragraph, .our-properties-paragraph {
+    font-family: montserrat, arial;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.right-section {
+    margin-top: 10px;
+    display: flex
+;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.profile-image {
+    height: 19.95px;
+    padding-bottom: 10px;
+}
+
+
+/*.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#333;
+    padding: 10px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    list-style: none;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+}
+
+.site-name{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #8cbdf2;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        justify-content: center;
+    }
+    .nav-links li {
+        margin: 5px 10px;
+    }
+    .site-name {
+        font-size: 1.2em;
+    }
+  }*/
+
+/* Hero Section */
+.hero {
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: justify;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* Communities Section */
+.background {
+    background-image: url('Background2.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.communities {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.community {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+}
+
+.community:hover {
+    transform: scale(1.05);
+}
+
+.community img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.community a:hover img {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.community h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.community p {
+    color: #666;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #82c9f2;
+    color:#f6f2f2
+    text-align center;
+    padding: 40px 20px;
+    font-style : italic;
+    font-size:18px;
+}
+
+.testimonial footer {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
