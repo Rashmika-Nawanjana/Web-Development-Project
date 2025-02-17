@@ -6,22 +6,29 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Header container to align title and navigation on the same line */
 .header-container {
     display: flex;
-    justify-content:space-around; /* Spaces out the title and nav */
+    justify-content: space-between; /* Spacing between title and nav */
     align-items: center; /* Aligns them vertically */
-    padding: 20px 5%;
-    background-color: white; /* Adjust as needed */
+    padding: 30px 10%; /* Increase padding for more space inside */
+    background-color: rgb(128, 210, 245); /* Adjust background color */
     border-bottom: 1px solid #ddd; /* Optional: Adds a subtle bottom border */
     font-size: larger;
+    height: 150px; /* Increased height to make the header box larger */
 }
 
+
 /* Logo Styling */
-.logo-imagae{
-    width: 30px;
-    padding-left: 20px;
+/* Logo Image Hover Effect */
+.logo-image {
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for transformations and filters */
 }
+
+.logo-image:hover {
+    transform: scale(1.1); /* Slightly zoom in the logo */
+    filter: brightness(1.2); /* Make the logo a bit brighter on hover */
+}
+
 
 /* Navigation Menu Styling */
 .nav-menu {
