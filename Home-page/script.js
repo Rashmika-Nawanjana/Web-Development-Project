@@ -151,3 +151,16 @@ profileImage.addEventListener("click", function() {
     console.log("Profile image clicked!");
     popupContainer.style.display = "flex"; // Show popup
 });
+document.querySelector(".communities").onclick = function() {
+    window.location.href = "other-pages/communities page/Communities.html";
+  };
+
+  document.querySelector(".about").onclick = function() {
+    window.location.href = "other-pages/About-page/index.html";
+  };
+
+  document.querySelector(".contact").onclick = function() {
+    window.location.href = "other-pages/Contact-us/index.html";
+  };
+  
+  

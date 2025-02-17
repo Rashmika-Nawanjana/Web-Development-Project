@@ -8,3 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+
+document.querySelector(".logo").onclick = function() {
+    window.location.href = "../../index.html"};
+
+document.querySelector(".about").onclick = function() {
+        window.location.href = "../About-page/index.html"};
+
+document.querySelector(".contact").onclick = function() {
+        window.location.href = "../Contact-us/index.html"};
