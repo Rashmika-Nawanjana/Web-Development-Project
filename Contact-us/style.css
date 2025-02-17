@@ -19,9 +19,9 @@
 
 /* Logo Styling */
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    color: #333; /* Adjust color as needed */
+    color: black; /* Adjust color as needed */
 }
 
 /* Navigation Menu Styling */
@@ -38,7 +38,7 @@
 .nav-menu a {
     text-decoration: none;
     color: #666; /* Subtle gray text */
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     transition: color 0.3s ease-in-out;
 }
@@ -59,7 +59,10 @@
     max-width: 50%;
     font-size:larger;
 
+
 }
+
+
 
 .contact-image {
     width: 45%;
