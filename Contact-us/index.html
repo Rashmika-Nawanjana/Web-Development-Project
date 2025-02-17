@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Real Estate Business</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Real Estate Business</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-building"></i> Properties</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-info-circle"></i> About</a>
+          </li>
+          <li>
+            <a href="#" class="active"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Text on the left, image on the right -->
+      <div class="main-container">
+        <div class="intro">
+          <h3>Contact Us</h3>
+          <p>
+            We're here to assist you in finding your dream home. Contact us
+            today!
+          </p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fA%3D%3D"
+          alt="Real Estate Office"
+          class="contact-image"
+        />
+      </div>
+
+      <section class="contact-info">
+        <h2>Get in Touch</h2>
+        <div class="info-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>123 Real Estate Street, City, Country</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-phone-alt"></i>
+          <p>+1 234 567 890</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-envelope"></i>
+          <p>
+            <a href="mailto:contact@realestate.com">contact@realestate.com</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+          <p id="formStatus"></p>
+        </form>
+      </section>
+
+      <section class="map">
+        <h2>Visit Us</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31691.60269208308!2d79.88661559065886!3d6.836486562328879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25aa2b479a3b5%3A0xbce48d646787147b!2sBoralesgamuwa!5e0!3m2!1sen!2slk!4v1739287403029!5m2!1sen!2slk"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Real Estate Business. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
