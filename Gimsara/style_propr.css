@@ -5,7 +5,6 @@ header {
     margin-top: 0px;
     margin-right: 5px;
     background-color: aquamarine;
-    border-radius: 20px, 20px, 1000px, 0px;
     z-index: 1000;
 }
 
@@ -18,7 +17,7 @@ header {
 
 .main_head {
     display: flex;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
@@ -46,7 +45,7 @@ body header .main_head ul li {
 
 body header .main_head ul a {
     text-decoration: none;
-    color: #555;
+    color: #fffefe;
     font-size: 16px;
 }
 
@@ -65,12 +64,12 @@ body header .main_head ul li:hover {
     border-radius: 5px;
     padding: 20px;
     /* margin: 0 10px; */
-    background-color: bisque;
+    background-color: rgba(156, 239, 115, 0.359);
 }
 
 #dropdown {
     display: none;
-    background-color: #5555556d;
+    background-color: #555555e4;
     position: absolute;
     min-width: 120px;
     border-radius: 0px 0px 5px 5px;
