@@ -30,3 +30,28 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 3000);
     });
 });
+
+
+
+/* --------------------------
+       Navigation Click Handlers
+    --------------------------- */
+    const communitiesLink = document.querySelector(".communities-1");
+    if (communitiesLink) {
+      communitiesLink.onclick = () => {
+        window.location.href = "../../other-pages/communities page/Communities.html";
+      };
+    }
+    const aboutLink = document.querySelector(".about");
+    if (aboutLink) {
+      aboutLink.onclick = () => {
+        window.location.href = "../../other-pages/About-page/index.html";
+      };
+    }
+    const contactLink = document.querySelector(".contact");
+    if (contactLink) {
+      contactLink.onclick = () => {
+        window.location.href = "index.html";
+      };
+    };
+  
