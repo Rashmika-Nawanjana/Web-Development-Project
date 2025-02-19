@@ -1,4 +1,93 @@
-header {
+.header {
+    height: 0px;
+    display: grid;
+    grid-template-columns: 300px 500px 1fr;
+    width: 100%;
+    height: 90px;
+    padding-bottom: 70px;
+    background-color: #82c9f2;
+
+}
+
+.middle-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Align to the right */
+    padding-right: 20px;
+    /* Add some space from the edge */
+}
+
+.logo-image {
+    width: 179.51px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+}
+
+.profile-image {
+    height: 19.95px;
+    padding-bottom: 10px;
+}
+
+.communities-paragraph,
+.Contact-paragraph,
+.about-paragraph,
+.communities-paragraph,
+.MLS-Search-Paragraph,
+.our-properties-paragraph {
+    font-family: montserrat, arial;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.communities-1,
+.contact,
+.about,
+.MLS-Search,
+.our-properties {
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: rgba(145, 155, 156, 0);
+    border-width: 5px;
+}
+
+.communities-1:hover,
+.contact:hover,
+.about:hover,
+.MLS-Search:hover,
+.our-properties:hover {
+    cursor: pointer;
+    border-bottom: solid;
+    border-color: rgb(17, 162, 173);
+    border-width: 5px;
+}
+.now{
+    border-bottom: solid;
+    border-color: rgba(0, 0, 0, 0.245);
+    border-width: 5px;
+}
+.middle-section a{
+    text-decoration: none;
+}
+
+/* header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -65,20 +154,21 @@ body header .main_head ul li:hover {
     border-style: groove;
     border-radius: 5px;
     padding: 20px;
-    /* margin: 0 10px; */
     background-color: rgba(156, 239, 115, 0.359);
-}
+} */
 
 #dropdown {
     display: none;
     background-color: #555555e4;
     position: absolute;
+    transform: translateY(0);
     min-width: 120px;
     border-radius: 0px 0px 5px 5px;
 }
 
 #dropdown a {
     color: black;
+    transition: all .3s ease;
     padding: 11px 15px;
     text-decoration: none;
     display: block;
@@ -89,9 +179,7 @@ body header .main_head ul li:hover {
 }
 
 .now:hover #dropdown {
-    display: block;
-    ;
-
+    display: block;;
 }
 
 body {
@@ -99,7 +187,7 @@ body {
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 170px;
+    /* margin-top: 170px; */
 
 }
 

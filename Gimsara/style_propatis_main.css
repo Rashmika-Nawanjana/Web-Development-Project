@@ -2,6 +2,7 @@ main #topic {
     margin-left: 40px;
     text-align: left;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 main #statment {
@@ -17,6 +18,8 @@ main {
 main p {
     margin-right: 20px;
     margin-left: 20px;
+    /* font-family: sans-serif; */
+    font-family: "Preahvihear", serif;
 }
 
 main .item img {
@@ -79,6 +82,7 @@ main .item a {
 }
 
 main .item ul .text_raw p {
-    text-align: justify;
+    /* text-align: justify; */
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
