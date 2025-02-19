@@ -7,14 +7,14 @@
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between; /* Spacing between title and nav */
-    align-items: center; /* Aligns them vertically */
-    padding: 30px 10%; /* Increase padding for more space inside */
-    background-color: rgb(128, 210, 245); /* Adjust background color */
-    border-bottom: 1px solid #ddd; /* Optional: Adds a subtle bottom border */
-    font-size: larger;
-    height: 150px; /* Increased height to make the header box larger */
+
+        
+        display: grid;
+        grid-template-columns: 300px 500px 1fr;
+        width: 100%;
+        height: 120px;
+        padding-bottom: 70px;
+        background-color: #82c9f2;
 }
 
 
@@ -22,6 +22,11 @@
 /* Logo Image Hover Effect */
 .logo-image {
     transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for transformations and filters */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 100px;
 }
 
 .logo-image:hover {
@@ -32,9 +37,14 @@
 
 /* Navigation Menu Styling */
 .nav-menu {
-    list-style: none;
+    margin-top: 50px;
     display: flex;
-    gap: 40px; /* Adjust spacing between menu items */
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between; 
+    padding-left: 500px;
+    gap: 30px;
+    white-space: nowrap;
 }
 
 .nav-menu li {
@@ -43,8 +53,8 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: #666; /* Subtle gray text */
-    font-size: 20px;
+    color: white; /* Subtle gray text */
+    font-size: 15px;
     font-weight: 300;
     transition: color 0.3s ease-in-out;
 }
